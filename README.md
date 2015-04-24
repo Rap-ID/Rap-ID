@@ -1,4 +1,4 @@
-WiAuth
+Rap-ID
 =====
 
 概述
@@ -15,9 +15,9 @@ WiAuth
 子项目
 -----
 
-- [WiAuth-Windows](https://github.com/WiAuth/WiAuth-Windows) 接口层在Windows上的实现
-- [WiAuth-Android](https://github.com/WiAuth/WiAuth-Android) 鉴权层在Android上的实现
-- [WiAuth-Front](https://github.com/WiAuth/WiAuth-Front) 前端
-- [WiAuth-Demo](https://github.com/WiAuth/WiAuth-Demo) 演示应用
-- [WiAuth-Backend](https://github.com/WiAuth/WiAuth-Backend) 服务器端
-- [WiAuth-SDK](https://github.com/WiAuth/WiAuth-SDK) SDK
+- [Rap-ID-Windows](https://github.com/Rap-ID/Rap-ID-Windows) 接口层在Windows上的实现
+- [Rap-ID-Android](https://github.com/Rap-ID/Rap-ID-Android) 鉴权层在Android上的实现
+- [Rap-ID-Front](https://github.com/Rap-ID/Rap-ID-Front) 前端
+- [Rap-ID-Demo](https://github.com/Rap-ID/Rap-ID-Demo) 演示应用
+- [Rap-ID.server.js](https://github.com/Rap-ID/Rap-ID.server.js) 服务器端
+- [Rap-ID-SDK](https://github.com/Rap-ID/Rap-ID-SDK) SDK
