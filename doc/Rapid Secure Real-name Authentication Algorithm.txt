@@ -1,0 +1,30 @@
+Rapid Secure Real-name Authentication Algorithm
+
+Yisheng Chai, Yuze Fu, Chenyu Li, (Indicator) Peng Gong
+
+Abstract
+
+In people’s daily life, there are increasing conditions needing user authentication,
+but the existing methods are not user-friendly or not enough secure, or requiring
+extra hardwares which may cause charges. Additionally, China government is pushing
+real-name internet into action, so it is quite vital to find a method which provides
+a low-cost and is easy to take into action without using ID card readers. For the two
+reasons above, we come up with a algorithm providing rapid secured authentication which
+also solves the problem of acting real-name internet. The algorithm relies on intranet
+communication between mobile phone, which is taken as hardware token, and computers and
+uses token-passing mechanism to provide the environment where the end-user only have to
+click a button to finish authentication. It also uses rolling-password mechanism and
+pairing system to provide a relatively secure condition. Besides, using the real-name
+information filled in when registering a phone number and the ICCID of SIM card in users’
+phones, the internet actions is real-named as well as secured . Nowadays, nearly every
+internet user own a mobile phone and a personal home network, thus the algorithm is
+low-cost and acceptable by people. Meanwhile, API and SDK is provided with the algorithm,
+so it is realistic for third-party applications to adapt into it. It can be used in normal
+logging-in, real-name payment, registering of net bar, etc. We released the source codes
+and API documents and SDKs on GitHub.
+
+Keyword: Authentication, Real-name, Hardware Token, Intranet Communication
+
+Forward
+
+(TBC)

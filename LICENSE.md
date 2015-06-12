@@ -35,6 +35,6 @@ And further access can be gained through contacting us. Our email of team leader
 is <admin@hackerchai.com>, and you may also write a letter to:
 
 ```
-No. 41, Shijilu, Hunnanxinqu
+No. 41, Shijilu, Hunnanqu
 Shenyang, Liaoning, the People's Republic of China 110179
 ```
