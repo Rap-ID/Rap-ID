@@ -1,7 +1,7 @@
 Rap-ID Windows API文档
 =====
 
-Version: `v0.5-draft`
+Version: `v1.0-draft`
 
 Draftsman: coderfox
 
@@ -77,3 +77,10 @@ For example,
 As this line defined 2 variables, result and token, you may get the token and the
 result. The `result` can be `ok` or `fail`. If the `result` is `fail`, you may be
 provided another variable called `error` providing details.
+
+### Notes
+
+You may get the absolute path of `auth.exe` in the registry. The path of the record
+is `HKEY_CLASSES_ROOT/rapid/dir/auth`.
+
+You may get the install path of Rap-ID at path `HKEY_CLASSES_ROOT/rapid/dir`.

@@ -11,7 +11,7 @@ security and features.
 It's based on communication between PC and mobile phones, taking the phone as a
 hardware token and ICCID as a media of real-name identity.
 
-Rap-ID stands for `Rapid Automatic Procto - IDentity`.
+Rap-ID stands for `Rapid Automatic Procto - IDentity`. You may pronounce it as `rap-ID`.
 
 Document
 -----
@@ -32,12 +32,11 @@ The definition of these components can be found in the <del>Four Layer Specifica
 
 ### Middle Layer
 
-- [Rap-ID-Windows](https://github.com/Rap-ID/Rap-ID-Windows) `Obsolete`Rap-ID-Windows
-- [Rap-ID.cs](https://github.com/Rap-ID/Rap-ID.cs) `Unfinished`An Rap-ID interface layer implement on Windows based on C#.
+- [Rap-ID-Windows](https://github.com/Rap-ID/Rap-ID-Windows) `Continuing`Rap-ID-Windows
 
 ### Token Layer
 
-- [Rap-ID-Android](https://github.com/Rap-ID/Rap-ID-Android) `Continuing`An Rap-ID token layer implement on Android.
+- [Rap-ID-Android](https://github.com/Rap-ID/Rap-ID-Android) `Continuing`A Rap-ID token layer implement on Android.
 
 ### Server Layer
 
@@ -51,4 +50,5 @@ The definition of these components can be found in the <del>Four Layer Specifica
 ### SDK and Documents
 
 - [Rap-ID-SDK](https://github.com/Rap-ID/Rap-ID-SDK) `Continuing`SDK for Rap-ID
+- [Rap-ID-Windows](https://github.com/Rap-ID/Rap-ID-Windows) `Continuing`Rap-ID-Windows
 - [Rap-ID-Front](https://github.com/Rap-ID/Rap-ID-Front) `Obsolete`Rap-ID frontend
