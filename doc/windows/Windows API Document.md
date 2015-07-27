@@ -1,7 +1,7 @@
 Rap-ID Windows API文档
 =====
 
-Version: `v1.0-draft`
+Version: `v1.0-RC`
 
 Draftsman: coderfox
 

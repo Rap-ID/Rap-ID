@@ -1,7 +1,7 @@
 Web API Document
 =====
 
-Version: `v1.1-draft`
+Version: `v1.1.1`
 
 Draftsman: coderfox
 
@@ -125,7 +125,7 @@ In the result, `/data/identity` can be null if no real-name data is found in the
 /api/auth
 -----
 
-`GET`Displays a simple page guiding user to Rap-ID desktop version.
+`GET/POST`Displays a simple page guiding user to Rap-ID desktop version.
 
 ### Parameters
 
