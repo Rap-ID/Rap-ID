@@ -1,13 +1,13 @@
 Rap-ID Windows API文档
 =====
 
-Version: `v1.0-RC`
+Version: `v1.0`
 
 Draftsman: coderfox
 
-Reviewer:
+Reviewer: coderfox
 
-请求方式
+Working Method
 -----
 
 1. URL Protocol
@@ -20,41 +20,45 @@ URL Protocol
 
 The program have registered a URL Protocol of `rapid://`.
 
-### 请求流程
+### Step
 
-1. 链接到URL Protocol页面
-2. Rap-ID进行授权
-3. Rap-ID打开指定回调的页面
+1. Open *URL Protocol Page*
+2. Rap-ID handles request
+3. Rap-ID opens callback page
 
 ### URL
 
-页面的URL应当形如：
+The URL looks like:
 
 ```
 rapid://authorize/?app=APPLICATIONKEY&callback=CALLBACK
 ```
 
-#### 说明
+#### Explanation
 
-`APPLICATIONKEY`为应用标识码，可以确定一个应用的名称。请向平台维护者索要。
+`APPLICATIONKEY`is the identity of an application, which tells the name of the application.
 
-`CALLBACK`为回调页面的URL经过URL Encode的结果。
+`CALLBACK` is the callback page URL.
 
-执行回调时Rap-ID会将`token`附加在`CALLBACK`后。如果授权出现问题，回复的token将为`ERROR`
+When calling back, Rap-ID will attach `token` after `CALLBACK`. If there is any problems, the result will be `ERROR`.
 
-#### 示例
+### Example
 
-打开的URL应当形如：
+When launching the URL below:
 
 ```
 rapid://authorize/http%3a%2f%2fexample.com%2fRap-ID-callback.html%3ftoken%3d
 ```
 
-而Rap-ID打开的回调页为：
+You will be called back to:
 
 ```
 http://example.com/Rap-ID-callback.html?token=aj5b1s02eokusotu0ej0l9c5m1
 ```
+
+### HINT
+
+You can open a user-friendly page with the Rap-ID Web API. See [Web API Document v1.1.1](https://github.com/Rap-ID/Rap-ID/blob/c73704e18350e1300af0bbfc6bfd3d7e81c7c493/doc/server/Web%20API%20Document.md#apiauth)
 
 CLI
 -----
